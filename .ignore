@@ -6,9 +6,18 @@ Thumbs.db
 .env
 *.local
 # 忽略特定目录
-/checkpoint/
-/data/
-/model/
-/.idea/
+checkpoint/
+data/
+model/
+.idea/
 # 忽略打包文件
 Processtalbes.spec
+
+#忽略测试文件
+testcode.py
+TrainEmotionDetector0.py
+TrainEmotionDetector1.py
+TrainEmotionDetector2.py
+TrainEmotionDetector3.py
+*.mp4
+*.png
